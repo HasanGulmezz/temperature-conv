@@ -1,0 +1,74 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(176, 212, 243);
+}
+
+h1{
+    color: #0000009c;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+form{
+    text-align: center;
+    background-color: rgb(144, 202, 253);
+    max-width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 25px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.267);
+}
+
+#text_box{
+    text-align: center;
+    width: 40%;
+    font-size: 1.7em;
+    border: 2px solid #0000009c;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.selection{
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid #0000009c;
+    margin: 5px 0px;
+}
+
+label{
+    font-size: 1.3em;
+    color: #000000c7;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 2px solid #0000009c;
+    font-size: 1em;
+    background-color: rgb(211, 231, 248);
+    color: #000000d5;
+    cursor: pointer;
+    padding: 5px 12px;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+p{
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+br, button{
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
