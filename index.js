@@ -18,7 +18,7 @@ function convert(){
     }
     else if (t1 == "Celsius" && t2 == "Kelvin") {
         temp = Number(value.value);
-        temp = temp - 273;
+        temp = temp + 273;
         result.textContent = temp + " K";
     }
     else if (t1 == "Fahrenheith" && t2 == "Celsius") {
@@ -29,17 +29,17 @@ function convert(){
     else if (t1 == "Fahrenheith" && t2 == "Kelvin") {
         temp = Number(value.value);
         temp = (temp-32) * 5 / 9;
-        temp = temp - 273;
+        temp = temp + 273;
         result.textContent = temp + " K";
     }
     else if (t1 == "Kelvin" && t2 == "Celsius") {
         temp = Number(value.value);
-        temp = temp + 273;
+        temp = temp - 273;
         result.textContent = temp + " C°";
     }
     else if (t1 == "Kelvin" && t2 == "Fahrenheith") {
         temp = Number(value.value);
-        temp = temp + 273;
+        temp = temp - 273;
         temp = temp * 9 / 5 + 32;
         result.textContent = temp + " F°";
     }
